@@ -1,3 +1,8 @@
+'''
+Time complexity: O(n^2). For each element, we try to find its complement by looping through
+the rest of array whcih takes O(n) time.
+Space complexity: O(1)
+'''
 class Solutions(object):
     def twoSum(self, nums, target):
         """
